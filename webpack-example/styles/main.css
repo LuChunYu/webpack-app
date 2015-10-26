@@ -1,0 +1,13 @@
+body {
+  font-size: 20px;
+  color: yellow;
+  text-align: center;
+  background: gray;
+}
+body .imgtest {
+  width: 400px;
+  height: 500px;
+  /*background-image: url("../img/icon.png");*/
+}
+
+/*# sourceMappingURL=main.css.map*/

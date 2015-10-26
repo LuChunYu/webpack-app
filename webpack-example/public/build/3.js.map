@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./module1.js?781e"],"names":[],"mappings":";;;;;;;AAAA,QAAO,CAAC,GAAG,CAAC,SAAS,CAAC,CAAC;AACvB,OAAM,CAAC,OAAO,GAAG,CAAC,C","file":"3.js","sourcesContent":["console.log(\"module1\");\nmodule.exports = 1;\n\n\n\n/** WEBPACK FOOTER **\n ** ./module1.js\n **/"],"sourceRoot":""}

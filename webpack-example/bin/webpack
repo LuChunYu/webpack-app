@@ -1,0 +1,24 @@
+#!/usr/bin/env node
+var debug = require('debug')('MODULE_NAME');
+var app = require('../app');
+var webpack = require('webpack');
+var webpackConfig = require('../webpack.config.js');
+var webpackCompiler = webpack(webpackConfig);
+var createServer = function () {
+    var server = app.listen(app.get('port'), function() {
+        console.log("server");
+        debug('Express server listening on port ' + server.address().port);
+    });
+};
+
+app.set('port', process.env.PORT || 9920);
+if (app.get('env') === 'production') {
+    webpackCompiler.run(function(err, stats){
+        console.log('compile finish');
+        createServer();
+    });
+}else{
+    console.log('not production');
+    createServer();
+}
+

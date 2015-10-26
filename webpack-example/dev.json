@@ -1,0 +1,11 @@
+{
+    "script" : "./bin/webpack", 
+    "exec_mode" : "fork", 
+    "instances" : 1, 
+    "watch" : ["app.js","views/*.jade", "routes/*.js", "src/page/*.js", "src/css/*.less", "webpack.config.js"],
+    "max_memory_restart" : "200M",
+    "env" : {
+        "PORT" : 9120,
+        "NODE_ENV":"development"
+    }
+}

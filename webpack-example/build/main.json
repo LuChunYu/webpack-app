@@ -1,0 +1,102 @@
+{
+  "extract-text-webpack-plugin": [
+    {
+      "nextFreeModuleId": 3,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js!/home/luchunyu/workspace/web-test/webpack-example/node_modules/less-loader/index.js?indentedSyntax=true&sourceMap=true!/home/luchunyu/workspace/web-test/webpack-example/src/css/index.less": 0,
+          "node_modules/babel-loader/index.js!/home/luchunyu/workspace/web-test/webpack-example/node_modules/css-loader/lib/css-base.js": 1,
+          "node_modules/url-loader/index.js?limit=10000&name=img/[name].[ext]!/home/luchunyu/workspace/web-test/webpack-example/src/img/icon.png": 2
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      },
+      "prepreHash": "x",
+      "preHash": "a5c2aecf149fd3766221",
+      "hash": "832ba7a1aa4f3f4c90ef",
+      "moduleHashs": {
+        "/home/luchunyu/workspace/web-test/webpack-example/node_modules/css-loader/index.js!/home/luchunyu/workspace/web-test/webpack-example/node_modules/less-loader/index.js?indentedSyntax=true&sourceMap=true!/home/luchunyu/workspace/web-test/webpack-example/src/css/index.less": "6d2be2c068cf9d79c22bafd55977f8ea",
+        "/home/luchunyu/workspace/web-test/webpack-example/node_modules/babel-loader/index.js!/home/luchunyu/workspace/web-test/webpack-example/node_modules/css-loader/lib/css-base.js": "a6d013fe31c77adfe73a3ccfba3793f3",
+        "/home/luchunyu/workspace/web-test/webpack-example/node_modules/url-loader/index.js?limit=10000&name=img/[name].[ext]!/home/luchunyu/workspace/web-test/webpack-example/src/img/icon.png": "f12023bf012628e316a8644dc345c1e4"
+      },
+      "chunkHashs": {
+        "0": "dd91f903866efa2775826664df311481"
+      },
+      "chunkModuleIds": {
+        "0": [
+          0,
+          1,
+          2
+        ]
+      }
+    }
+  ],
+  "nextFreeModuleId": 7,
+  "modules": {
+    "byIdentifier": {
+      "node_modules/babel-loader/index.js!/home/luchunyu/workspace/web-test/webpack-example/src/page/index.js": 0,
+      "node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"extract\":true,\"remove\":true}!/home/luchunyu/workspace/web-test/webpack-example/node_modules/style-loader/index.js!/home/luchunyu/workspace/web-test/webpack-example/node_modules/css-loader/index.js!/home/luchunyu/workspace/web-test/webpack-example/node_modules/less-loader/index.js?indentedSyntax=true&sourceMap=true!/home/luchunyu/workspace/web-test/webpack-example/src/css/index.less": 1,
+      "node_modules/babel-loader/index.js!/home/luchunyu/workspace/web-test/webpack-example/src/page/test.js": 2,
+      "node_modules/url-loader/index.js?limit=10000&name=img/[name].[ext]!/home/luchunyu/workspace/web-test/webpack-example/src/img/close.png": 3,
+      "node_modules/url-loader/index.js?limit=10000&name=img/[name].[ext]!/home/luchunyu/workspace/web-test/webpack-example/src/img/产品介绍v1.png": 4,
+      "node_modules/url-loader/index.js?limit=10000&name=img/[name].[ext]!/home/luchunyu/workspace/web-test/webpack-example/src/img/tag.png": 5,
+      "node_modules/babel-loader/index.js!/home/luchunyu/workspace/web-test/webpack-example/src/page/moduleA.js": 6,
+      "node_modules/babel-loader/index.js!/home/luchunyu/workspace/web-test/webpack-example/src/page/moduleB.js": 0,
+      "node_modules/babel-loader/index.js!/home/luchunyu/workspace/web-test/webpack-example/src/page/pluginTest.js": 0
+    }
+  },
+  "nextFreeChunkId": 4,
+  "chunks": {
+    "byName": {
+      "index": 0,
+      "other": 1,
+      "test": 2,
+      "common.js": 3
+    },
+    "byBlocks": {}
+  },
+  "prepreHash": "x",
+  "preHash": "2b45ccdb391049c4fa2d",
+  "hash": "0eeadbd40fc5109ba946",
+  "moduleHashs": {
+    "/home/luchunyu/workspace/web-test/webpack-example/node_modules/babel-loader/index.js!/home/luchunyu/workspace/web-test/webpack-example/src/page/index.js": "7adb2b9a4375a9ccd0d4bd0a3ea8d54c",
+    "/home/luchunyu/workspace/web-test/webpack-example/node_modules/babel-loader/index.js!/home/luchunyu/workspace/web-test/webpack-example/src/page/moduleB.js": "2c335c642c50f40f9b8fc8add537a4a5",
+    "/home/luchunyu/workspace/web-test/webpack-example/node_modules/babel-loader/index.js!/home/luchunyu/workspace/web-test/webpack-example/src/page/pluginTest.js": "b7cc9d5860d6d7f11450cfcd8de644c5",
+    "/home/luchunyu/workspace/web-test/webpack-example/node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"extract\":true,\"remove\":true}!/home/luchunyu/workspace/web-test/webpack-example/node_modules/style-loader/index.js!/home/luchunyu/workspace/web-test/webpack-example/node_modules/css-loader/index.js!/home/luchunyu/workspace/web-test/webpack-example/node_modules/less-loader/index.js?indentedSyntax=true&sourceMap=true!/home/luchunyu/workspace/web-test/webpack-example/src/css/index.less": "4563d8072a93ff2ca21bf0fd0e7ca09c",
+    "/home/luchunyu/workspace/web-test/webpack-example/node_modules/babel-loader/index.js!/home/luchunyu/workspace/web-test/webpack-example/src/page/test.js": "654bf7f861c7a3c077cec22cf37fe9fb",
+    "/home/luchunyu/workspace/web-test/webpack-example/node_modules/url-loader/index.js?limit=10000&name=img/[name].[ext]!/home/luchunyu/workspace/web-test/webpack-example/src/img/close.png": "3f49f6ddc752f1fadfe2d381cb6273c9",
+    "/home/luchunyu/workspace/web-test/webpack-example/node_modules/url-loader/index.js?limit=10000&name=img/[name].[ext]!/home/luchunyu/workspace/web-test/webpack-example/src/img/产品介绍v1.png": "e70071ca64d2b4b360f4c13f513c82e3",
+    "/home/luchunyu/workspace/web-test/webpack-example/node_modules/url-loader/index.js?limit=10000&name=img/[name].[ext]!/home/luchunyu/workspace/web-test/webpack-example/src/img/tag.png": "0b661dd2de768ba721a9d7d43468f7e0",
+    "/home/luchunyu/workspace/web-test/webpack-example/node_modules/babel-loader/index.js!/home/luchunyu/workspace/web-test/webpack-example/src/page/moduleA.js": "868244bdf6ddfc141ed5257c7255a3e0"
+  },
+  "chunkHashs": {
+    "0": "543c8118aa57b3289799be0b83fd86c8",
+    "1": "575b77141ecdca4a463541d134370342",
+    "2": "284f095f64ccd4d0a349f3aca0e0bd52",
+    "3": "c2b09570f886886e88e3aa6bc3eda906"
+  },
+  "chunkModuleIds": {
+    "0": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "1": [
+      0,
+      6
+    ],
+    "2": [
+      0,
+      1,
+      2
+    ],
+    "3": []
+  }
+}
