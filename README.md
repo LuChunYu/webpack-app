@@ -7,7 +7,7 @@ React自发布以来吸引了越来越多的开发者，React开发和模块管�
 ## webpack是什么？
 web开发中常用到的静态资源主要有JavaScript、CSS、图片、Jade等文件，webpack中将静态资源文件称之为模块。webpack是一个模块打包工具，其可以兼容多种js书写规范，且可以处理模块间的依赖关系，具有更强大的js模块化的功能。
 [官方网站](http://webpack.github.io/docs/what-is-webpack.html)中用下图清晰的描述了webpack采用不同的loader加载不同的资源文件，打包生成多个js文件，也可以根据设置生成独立的图片、css文件等。
-![cmd-markdown-logo](http://webpack.github.io/assets/what-is-webpack.png)
+
 
 ## why webpack？
 在以往的开发过程中，经常会遇到以下三种情况：
